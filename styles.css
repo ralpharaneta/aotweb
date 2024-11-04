@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.bg {
+    background-image: url('images/background.webp'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgfounding{
+    background-image: url('images/foundingwallpaper.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgfemale{
+    background-image: url('images/bgfemale.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgcolossal{
+    background-image: url('images/bgcolosssal.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgjaw{
+    background-image: url('images/bgjaw.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgarmored{
+    background-image: url('images/bgarmored.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgbeast{
+    background-image: url('images/bgbeast.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgcart{
+    background-image: url('images/bgcart.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgcart{
+    background-image: url('images/bgcart.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.bgattack{
+    background-image: url('images/bgattack.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    padding: 1rem;
+    color:#f4f4f4
+}
+
+section div{
+   position: center;
+}
+
+section p{
+    color:#f4f4f4;
+    font-size: 1.2em;
+}
+
+section li{
+    font-size: 1.2em;
+}
+section h2{
+    color: black;
+}
+.a {
+    color: black;
+}
+
+.titan-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.titan-gallery img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+
+.titan-gallery a {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    flex: 1 1 calc(12.5% - 0.5rem); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.titan-gallery a:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.titan-gallery p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+
+@media (max-width: 1200px) {
+    .titan-gallery a {
+        flex: 1 1 calc(25% - 0.5rem); 
+    }
+}
+
+@media (max-width: 800px) {
+    .titan-gallery a {
+        flex: 1 1 calc(33.33% - 0.5rem);
+    }
+}
+
+@media (max-width: 600px) {
+    .titan-gallery a {
+        flex: 1 1 calc(50% - 0.5rem); 
+    }
+
+    .titan-gallery img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.titan-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.titan-flex a {
+    text-decoration: none;
+    color: inherit; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.titan-flex img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px;
+}
+
+.titan-flex a:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
